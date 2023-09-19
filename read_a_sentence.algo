@@ -1,0 +1,13 @@
+ALGORITHM read a sentence
+VAR
+    i:INTEGER:= 9 ;
+    s:STRING:= "The length of the sentence the number of characters." ;
+    c:CHAR:= "T","h","e","l","e","n","g","t","h","o","f","t","h","e","s","e","n","t","e","n","c","e","t","h","e","n","u","m","b","e","r","o","f","c","h","a","r","a","c","t","e","r","s" ;
+    sum:INTEGER:= 0;
+
+BEGIN
+    FOR i FROM min TO max STEP step  DO
+        sum:= sum +1
+    END_FOR
+    write(sum)
+END
