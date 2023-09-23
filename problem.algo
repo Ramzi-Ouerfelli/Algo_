@@ -1,0 +1,6 @@
+ALGORITHM Solve_Problem1
+VAR
+    
+BEGIN
+    set_instructions
+END
